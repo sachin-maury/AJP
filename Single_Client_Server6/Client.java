@@ -5,6 +5,7 @@ import java.net.*;
 public class Client {
     public static void main(String[] args) {
         String hostname = "localhost";
+        
         int port = 1234;
 
         try (Socket socket = new Socket(hostname, port)) {
