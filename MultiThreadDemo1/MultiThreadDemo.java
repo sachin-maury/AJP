@@ -1,4 +1,4 @@
-package MultiThreadDemo;
+package MultiThreadDemo1;
 
 class MultiThreadDemo implements Runnable {
     private String threadName;
