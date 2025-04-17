@@ -11,7 +11,7 @@ class MultiThreadDemo implements Runnable {
         for (int i = 0; i < 5; i++) {
             System.out.println(threadName + " - Count: " + i);
             try {
-                // Sleep for a while to simulate some work and allow context switching
+             
                 Thread.sleep(500);
             } catch (InterruptedException e) {
                 System.out.println(threadName + " interrupted.");
