@@ -1,4 +1,4 @@
-package LoginIdFormusingJDBC;
+package LoginIdFormusingJDBC7;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
